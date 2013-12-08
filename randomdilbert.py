@@ -56,4 +56,5 @@ class RandomDilbert:
     def show_random_image(self, widget=None, data=None):
         self.image.set_from_pixbuf(pixbuf_from_url(self.get_random_image()))
 
-RandomDilbert().show()
+if __name__ == "__main__":
+    RandomDilbert().show()
